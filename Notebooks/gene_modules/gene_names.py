@@ -1,7 +1,7 @@
 '''
 This is me practising how to use modules.
 '''
-def gen_names(gene_file, gene_names):
+def get_gen_names(gene_file, gene_names):
     '''
     Takes input as chromosome file and extracts gene_names from it.
     '''
