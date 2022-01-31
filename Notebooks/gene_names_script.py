@@ -17,4 +17,5 @@ def get_gen_names(gene_file, gene_names):
                 if flag and count ==2:
                     outfile.write(line.split()[0] + '\n')
 
-get_gen_names(sys.argv[1], sys.argv[2])#NB: You must call the function in the standalone script for the script to be working.
+get_gen_names(sys.argv[1], sys.argv[2])
+#NB: You must call the function in the standalone script for the script to be working.
